@@ -1,0 +1,1 @@
+This simple package takes in a city located in the United States and creates a markdown file containing its weather forecast.

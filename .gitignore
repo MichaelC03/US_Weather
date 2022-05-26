@@ -1,0 +1,3 @@
+# files to ignore
+src/__pycache__/wquery.cpython-39.pyc
+src/__pycache__/wformat.cpython-39.pyc
