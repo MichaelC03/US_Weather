@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: us-weather-MichaelC03
+Version: 0.0.1
+Summary: Retrieves weather information of a city located in the United States
+Home-page: https://github.com/MichaelC03/US_Weather
+Author: Michael Cheng
+Author-email: michael.cheng@metrics.ca
+License: UNKNOWN
+Description: This simple package takes in a city located in the United States and creates a markdown file containing its weather forecast.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
