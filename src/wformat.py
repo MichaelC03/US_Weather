@@ -1,4 +1,6 @@
 def weather_to_str(city, data):
+    """Formats weather forecast as a markdown file and saves it to a string"""
+
     text = f"# {city.upper().replace('_', ' ')}\n"
 
     # Formatting JSON to MD
@@ -11,7 +13,9 @@ def weather_to_str(city, data):
     return text
 
 
-def str_to_md(text):
+def str_to_md(text, title):
+    """Write text string to a markdown file with the specified title"""
+
     # Writing to MD file
-    with open("weather_forecast.md", "w") as write_file:
+    with open(f"{title}.md", "w") as write_file:
         write_file.write(text)

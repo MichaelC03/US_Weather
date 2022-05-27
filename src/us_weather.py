@@ -16,10 +16,13 @@ my_parser.add_argument("city",
 args = my_parser.parse_args()
 city = args.city
 
+# Get weather forecast of given city
 data = wquery.get_forecast(city)
 
+# If query was successful, format forecast information and save to a
+# markdown file
 if data:
     text = wformat.weather_to_str(city, data)
-    wformat.str_to_md(text)
+    wformat.str_to_md(text, "weather_forecast")
 
     print("Success")
